@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <androidx.emoji.widget.EmojiAppCompatTextView
+            android:id="@+id/emoji_char"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusedByDefault="true"
+            android:hint="@string/input_emoji"
+            android:maxLength="2"
+            android:minWidth="170dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="60sp"
+            android:layout_marginTop="50dp"
+            android:inputType="textShortMessage"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="🙊" />
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/compare"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="25sp"-->
+<!--        android:text="@string/equal_sign"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/emoji_char_layout"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/emoji_unicode"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/emoji_char_layout"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/emoji_char_layout" />-->
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/emoji_unicode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        android:minWidth="130dp"
+        app:layout_constraintBottom_toBottomOf="@+id/emoji_char"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/emoji_char"/>
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/emoji_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cldr_short_name"
+            android:maxLength="255"
+            android:maxLines="1"
+            app:layout_constraintTop_toBottomOf="@id/emoji_char"
+            tools:text="speak-no-evil monkey" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

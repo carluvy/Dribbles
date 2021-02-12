@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/answer_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@color/purple_200"
+    android:padding="3dp"
+    android:textColor="@color/teal_700"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:text="sleepy face"
+    />
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/answer"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:background="@color/purple_200"-->
+<!--        android:padding="3dp"-->
+<!--        android:textColor="@color/teal_700"-->
+<!--        tools:text="sleepy face"/>-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/answer1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:background="@color/purple_200"-->
+<!--        android:padding="3dp"-->
+<!--        android:textColor="@color/teal_700"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:text="sleepy face"/>-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/answer3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:background="@color/purple_200"-->
+<!--        android:padding="3dp"-->
+<!--        android:textColor="@color/teal_700"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:text="sleepy face"/>-->
+
+
+
+
+
+
+
+    <!--    <androidx.recyclerview.widget.RecyclerView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"/>-->
+
+
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/emojiName"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="40dp"-->
+    <!--            android:text="emoji name"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@+id/answer_view"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/emojiCode"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="40dp"-->
+    <!--            android:text="emoji"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/emojiName"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/emojiName" />-->
+
+
+
